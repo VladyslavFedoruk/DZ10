@@ -155,9 +155,12 @@ h3 {
     display: flex;
     justify-content: center;
     margin-right: 10px;
-    margin-bottom: 30;
 }
 
 .social-media img {
     margin-right: 10px;
+}
+
+.social-media li {
+    margin-bottom: 30;
 }
