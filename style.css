@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+}
+
+.logo {
+    margin: 10px 206px 10px 135px;
+}
+
+.menu .menu__item {
+    display: inline-block;
+    list-style-type: none;
+    margin: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+.menu__item_hover:hover {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #18B5DC;
+}
+
+button {
+    display: block;
+    max-width: 130px;
+    width: 100%;
+    height: 42px;
+    margin: 19px 0px;
+    border-radius: 1px;
+}
+
+button:hover {
+    background: #18B5DC;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 1px;
+}
+
+.call-button {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+.background-color {
+    background: #F6F6F6;
+}
+
+.who-we-are__title {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    margin-bottom: 64px;
+}
+
+.who-we-are__title::after {
+    margin-top: 20px;
+    position: absolute;
+    border-bottom: 4px solid #DDDBDB;
+    content: "";
+    width: 45px;
+}
+
+.who-we-are__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C3C3C;
+    width: 570px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    max-width: 570px;
+}
+
+.who-we-are__list-person {
+    display: flex;
+    justify-content: center;
+}
+
+.who-we-are-person:not(:last-child) {
+    margin-right: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.who-we-are-person p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #646464;
+    padding-bottom: 150px;
+}
+
+.logo-footer {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 28px;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3C3C3C;
+    margin-top: 30px;
+}
+
+.menu-footer__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.menu-footer__item {
+    margin-bottom: 30px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 30;
+}
+
+.social-media img {
+    margin-right: 10px;
+}
